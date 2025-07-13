@@ -11,7 +11,7 @@ A lightweight Python script that uses `pyautogui` and `keyboard` to detect a spe
 
 
 ## 🛠️ Requirements
-
+- target_image.png placed in the same folder as the script.
 - Python 3.x
 - [pyautogui](https://pypi.org/project/pyautogui/)
 - [keyboard](https://pypi.org/project/keyboard/)
@@ -22,6 +22,12 @@ Install the dependencies with:
 
 ```bash
 pip install pyautogui keyboard pillow
+```
+
+Add Your Image
+Place the image you want to detect in the same folder and update the image path in the script:
+```
+IMAGE_PATH = r'target_image.png'
 ```
 
 ## Run the Script

@@ -5,7 +5,7 @@ import os
 import traceback  # Added for detailed error logging
 
 # Image path
-IMAGE_PATH = r'C:\Users\akshi\OneDrive\Desktop\project\click\heart2.png'
+IMAGE_PATH = r'target_image.png path'
 
 # Validate image path
 if not os.path.exists(IMAGE_PATH):
